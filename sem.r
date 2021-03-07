@@ -6,7 +6,6 @@ need1.5 <- c("lavaan","semPlot","semTools","lme4", "nlme", "glmmTMB", "emmeans",
 not.have <- need1.5[!(need1.5 %in% installed.packages()[,"Package"])]
 if(length(not.have)) install.packages(not.have)
 
-#options(warn = -1)
 
 suppressWarnings(                                         
   suppressMessages({ 
